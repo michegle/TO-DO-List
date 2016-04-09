@@ -1,0 +1,112 @@
+/*----------------------------------------------------NAV BAR */
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-header .navbar-brand {
+  color: white;
+}
+.navbar-default {
+    border-radius: 0;
+    border: 0;
+    background-color: #223843;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-default .navbar-nav > li > a.active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*------------------------------------------------------MAIN COMPONENT */
+#main-component-wrapper {
+  background-color: #EFF1F3;
+  width: 100%;
+  height:calc(100vh - 50px);
+}
+
+#main-component-wrapper .main-component {
+  margin-top: 60px;
+  box-shadow: 2px 2px 5px 2px #888888;
+}
+
+#main-component-wrapper .main-component #info-overview {
+  background-color: #EB5D5C;
+  text-align: center;
+  padding: 40px 0;
+}
+
+/*----------------------------------------------------- INFO OVERVIEW CSS */
+#info-overview > div:first-child  {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+#info-overview > div > p {
+  font-weight: bold;
+  font-size: 64px;
+  font-family: sans-serif;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+#info-overview > div > span {
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 6.9px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*-------------------------------------------------------INFO DIVIDER CSS */
+
+.info-divider {
+  background-color: #9F3D3C;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.info-divider > div > p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/*---------------------------------------------------- TASK LIST CSS */
+.task-list {
+  max-height: calc(100vh - 400px);
+  overflow-y: scroll;
+}
+
+/*---------------------------------------------------- TASK LIST ITEM CSS */
+.task-list-item {
+  background-color: white;
+  font-size: 16px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.task-list-item:last-child {
+  border-bottom: 0;
+}
+
+.task-list-item .checkbox {
+  margin: 20px;
+}
+
+
+.task-list-item .checkbox > label > input {
+  position: relative;
+  display: inline;
+  margin-right: 10px;
+}
+
+.task-list-item .checkbox > span {
+  color: grey;
+  float: right;
+}
